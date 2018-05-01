@@ -1,6 +1,6 @@
 # `distfeed microservice ↪︎`
 
-See [original repo](https://github.com/tjjjia/distfeed-microservice) and [Metascraper](https://metascraper.js.org) for excelent documentation.
+See [original repo](https://github.com/withspectrum/micro-open-graph) and [Metascraper](https://metascraper.js.org) for excelent documentation.
 
 ## License
 
