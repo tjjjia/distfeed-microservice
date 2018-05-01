@@ -3,15 +3,15 @@ const { send } = require('micro')
 const got = require('got');
 const metascraper = require('metascraper').load([
 //   require('metascraper-soundcloud')(),
-  require('metascraper-video')(),
-  require('metascraper-youtube')(),
-  require('metascraper-author')(),
-  require('metascraper-date')(),
-  require('metascraper-description')(),
-  require('metascraper-image')(),
-  require('metascraper-lang')(),
-  require('metascraper-publisher')(),
-  require('metascraper-title')(),
+//   require('metascraper-video')(),
+//   require('metascraper-youtube')(),
+//   require('metascraper-author')(),
+//   require('metascraper-date')(),
+//   require('metascraper-description')(),
+//   require('metascraper-image')(),
+//   require('metascraper-lang')(),
+//   require('metascraper-publisher')(),
+//   require('metascraper-title')(),
   require('metascraper-url')()
 ])
 
