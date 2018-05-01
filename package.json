@@ -21,7 +21,18 @@
   "dependencies": {
     "got": "^8.0.1",
     "memory-cache": "^0.1.6",
-    "metascraper": "^3.0.0",
+    "metascraper": "^3.10.7",
+    "metascraper-soundcloud": "^3.10.7",
+    "metascraper-video": "^3.10.7",
+    "metascraper-youtube": "^3.10.7",
+    "metascraper-author": "^3.10.7",
+    "metascraper-date": "^3.3.0",
+    "metascraper-description": "^3.10.7",
+    "metascraper-image": "^3.10.7",
+    "metascraper-lang": "^3.9.3",
+    "metascraper-publisher": "^3.4.0",
+    "metascraper-title": "^3.10.7",
+    "metascraper-url": "^3.10.7"
     "micro": "^7.0.6"
   },
   "devDependencies": {
