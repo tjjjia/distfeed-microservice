@@ -12,7 +12,7 @@ const metascraper = require('metascraper').load([
 //   require('metascraper-lang')(),
 //   require('metascraper-publisher')(),
 //   require('metascraper-title')(),
-  require('metascraper-url')()
+//   require('metascraper-url')()
 ])
 
 
