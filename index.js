@@ -1,7 +1,23 @@
 const { parse } = require('url')
 const { send } = require('micro')
 const got = require('got');
-const metascraper = require('metascraper')
+const metascraper = require('metascraper').load([
+  require('metascraper-soundcloud')(),
+  require('metascraper-video')(),
+  require('metascraper-youtube')(),
+  require('metascraper-author')(),
+  require('metascraper-date')(),
+  require('metascraper-description')(),
+  require('metascraper-image')(),
+  require('metascraper-lang')(),
+  require('metascraper-publisher')(),
+  require('metascraper-title')(),
+  require('metascraper-url')()
+])
+
+
+
+
 const cache = require('memory-cache')
 
 const TWENTY_FOUR_HOURS = 86400000
