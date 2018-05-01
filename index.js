@@ -2,7 +2,7 @@ const { parse } = require('url')
 const { send } = require('micro')
 const got = require('got');
 const metascraper = require('metascraper').load([
-  require('metascraper-soundcloud')(),
+//   require('metascraper-soundcloud')(),
   require('metascraper-video')(),
   require('metascraper-youtube')(),
   require('metascraper-author')(),
